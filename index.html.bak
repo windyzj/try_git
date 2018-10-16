@@ -47,6 +47,8 @@
 
 <!--------------- 留言区开始 新的留言请放在最上面--------------------->
 
+<p class ="impression"style ="color：gray;font-weight：bold;">尊敬的各位领导,各位同僚,各位同事,送给大家一句话:"我不断的奔跑,只为追上那个被期望的自己!!!!"</p>	  
+
 <p class ="impression"style ="color:res;font-weight:bold;">学习git 天王盖地虎</p>
 <p class ="impression"style ="color：red;font-weight：bold;">再次复习git,受益匪浅,新的一年,希望各位前途似锦!</p>	  
 <p class = "impression" style = "color: purple; font-size: 66px ; font-family: 隶书;background-color: #eee;">闲来无事，活跃一下</p>
