@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>GitHub学习实践</title>
+ 
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/windyzj/try_git">Give me Pull Request</a>
+          <h2 id="project_tagline">GitHub学习实践</h2>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>尝试发送Pull Request！</h3>
+
+<p>本网站是为了让尚硅谷的同学尝试通过Pull Request来实验在GitHub上做提交操作。</p>
+ </p>
+
+
+<h3>操作步骤</h3>
+<ul>
+  <li>0、点击右上角的"Give me Pull Request" </li>
+  <li>1、fork本项目到自己的账户 </li>
+  <li>2、把自己账户下的项目clone到本地仓库</li>
+  <li>3、修改index.html的留言区增加一条学习感想，可以留下班级姓名。</li>
+  <li>4、修改后提交到本地库（add、commit）</li>
+  <li>5、推送到自己GitHub账户下的项目上</li>
+  <li>6、登录GitHub，在自己的项目上找到提交的分支，点击New pull request</li>  
+  <li>7、填写pull request申请，观察自己代码是否提交正确（应该只增加一行内容）。</li>
+  <li>8、然后请等待项目管理员合并，如果提交的内容有问题，管理员会退回。</li>
+  <li>9、如果提交人太多合并不过来请大家见谅！</li> 
+</ul>
+
+
+<h4>说明</h4>
+<p>您如果有对课程的感想，学习的感言，或者只是想单纯测试一下，请编辑留言区，然后发送Pull Request。</p>
+<p style="font-weight:bold;">留言区:  (现共有<span id="impression_num"></span>条用户留言)</p></B>
+
+<!--------------- 留言区开始 新的留言请放在最上面--------------------->
+
+<p class ="impression"style ="color：gray;font-weight：bold;">尊敬的各位领导,各位同僚,各位同事,送给大家一句话:"我不断的奔跑,只为追上那个被期望的自己!!!!"</p>	  
+
+<p class ="impression"style ="color:res;font-weight:bold;">学习git 天王盖地虎</p>
+<p class ="impression"style ="color：red;font-weight：bold;">再次复习git,受益匪浅,新的一年,希望各位前途似锦!</p>	  
+<p class = "impression" style = "color: purple; font-size: 66px ; font-family: 隶书;background-color: #eee;">闲来无事，活跃一下</p>
+<p class="impression" style="color:blue;background-color:black;font-size:20px;font-weight:bold;">明天放假了，预祝各位年后都吃成胖子！大牙别闹</p>
+<p class="impression" style="color:blue;font-size:50px;font-weight: bold;">一人我啃月亮，就问你慌不慌。me是来自0725的大牙。me为me自己代盐~~~</p> 
+<p class="impression" style="color:#FF7F00;background-color:#F7F7F7;font-size:32px;font-weight:bold;padding-top: 30px;padding-bottom: 60px;text-align: center;margin-top: 30px;margin-bottom: 50px;">大家淡定一下，我要上场了</p>
+<p class = "impression" style = "clore:purple; font-size:66px; font-weight:bold">六组口诀，巴啦啦小魔仙，大牙，变身！！！！</p>
+<p class="impression" style="color:green;background-color:black;font-size:30px;font-weight:bold;">this is My life in the atguigu,I want to touch the sky in our world.以梦为马,诗酒趁年华.--java0906yyl)</p>
+<p class ="impression" style="color:red;font-weight:bold;">天行健，君子以自强不息；地势坤，君子以厚德载物</p>
+<p class = "impression" style = "color:blue;font-size:88px;font-weight: bold;padding-top: 200px;padding-bottom: 260px; margin-bottom: 300px;margin-top:200px ">我觉得刚刚提交的不够大，再来一条.<br/>另外大家都离我远一点，我要。。。。。</p>
+<p class = "impression" style = "color: purple;">我就静静的看着你们</p>
+<p class="impression" style="color:blue;background-color:black;font-size:20px;font-weight:bold;">大家好! 用大家最喜欢的宋宋色 预祝大家新年快乐 (づ￣3￣)づ╭❤～)</p>
+<p class="impression" style="color:green">一个能好好过的年了，先玩爽了再说</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">我宁愿失败，也不想什么都不做</p>
+<p class="impression"><span style="color:red;">不</span><span style="color:aqua;">忘</span><span style="color:blue;">初</span><span style="color:fuchsia;">心，</span><span style="color:gray;">方</span><span style="color:green;">得</span><span style="color:lime;">始</span><span style="color:maroon;">终。</span><span style="color:red;">祝</span><span style="color:aqua;">愿</span><span style="color:blue;">大</span><span style="color:fuchsia;">家</span><span style="color:gray;">来</span><span style="color:green;">年</span><span style="color:lime;">都</span><span style="color:maroon;">能</span><span style="color:navy;">找</span><span style="color:olive;">到</span><span style="color:orange;">好</span><span style="color:purple;">工</span><span style="color:silver;">作</span><span style="color:teal;">。</span><br/><br/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="color:navy;">17</span><span style="color:olive;">09</span><span style="color:orange;">25</span><span style="color:purple;">--</span><span style="color:silver;">Java</span><span style="color:teal;">EE</span></p>
+<p class="impression" style="color:white;background-color:black;font-size:25px;font-weight:bold;">一男子在路边一根接着一根地抽烟。一个女士走过来对他说：“嘿，你不知道你是在慢性自杀吗？注意看看烟盒上的警告信息。”“没关系”，男子悠然自得地又吸了一口：“我是个程序猿。”“嗯？这和你是程序猿有什么关系？”“我们一点儿也不在乎警告（warning），我们只在乎错误（error）。</p>
+<p class="impression" style="color:red">这么多命令，多打打也就记住了！！！</p>
+<p class = "impression" style = "color:green">Come on ! We will never give up !</p>
+<p class="impression" style="color:white;background-color:black;font-size:25px;font-weight:bold;">大家好!我是喳喳辉!在此,携贪婪蓝月所有娲家,预祝尚大学子都能月薪过万!贪婪蓝月开发部大门也为大家敞开!(导演,可以领盒饭了吗?--------JAVA0906--帅帅)</p>
+<p class = "impression" style = "color: yellow">不到黄河不死心，不找bug不开心！！！！！致--2018--</p>
+<p class ="impression"style ="color：red;font-weight：bold;">学无止境,不忘初心！！</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">曾经沧海难为水，鱼香肉丝配鸡腿</p>
+<p class="impression" style="color:blue;background-color:yellow;font-size:30px;font-weight:bold;">有收获，但还是有问题，加油努力解决！170815吴九龙</p>
+<p class ="impression"style ="color:#66cc00;font-size:20px;">
+	But she said, where'd you wanna go?<br/>
+	How much you wanna risk?<br/>
+	I'm not looking for somebody,<br/>
+	With some superhuman gifts.<br/>
+	Some superhero,<br/>
+	Some fairytale bliss,<br/>
+	Just something I can turn to,<br/>
+	Somebody I can kiss,<br/>
+	I want something just like this.<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--0815JAVASE
+</p>
+ <p class = "impression" style = "clore:purple; font-size:66px; font-weight:bold">中国会越来越强大</p>
+<p class = "impression" style = "clore:purple; font-size:66px; font-weight:bold">2018，希望能有个满意的工作，最好能再找到个对象(O(∩_∩)O哈哈~)</p>
+<p class="impression" style="color: red;font-weight:bold;">每天进步一点，不用太久，半年就是一次蜕变--170906JAVA EE</p>
+<p class="impression" style="color:fuchsia">当初因为单纯没转行java,现在想想还是太单纯而选择转行java.--170906.Silence03</p>
+<p class ="impression"style ="color: red;font-weight:bold;">许愿氤氲之息，清泉流响！许愿宇宙真理！！许愿马化腾加强魔皇！！！魔皇Number one！！！！！！！！！！</p>
+<p class ="impression"style ="color: red;font-weight:bold;">感谢我尚大，比四年大学有用多了，尚大毕业上硅谷</p>
+<p class="impression" style="color:red；font-size: 50px;font-weight: bold;">push成功，我就成功开始git第一步啦啦，哇咔咔</p>
+<p class ="impression"style ="color:#66ccff;font-size:30px;">170815 你好社会王，我要买加特林，哒哒哒哒哒~~~~~~</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">merry Christmas!!!</p>
+<p class ="impression"style ="color: red;font-weight:bold;">希望新的一年可以平平淡淡走在路上，也许望你可以达成所愿。</p>
+<p class ="impression"style ="color：blue;font-weight：bold;"> 170706马豆慧,祝您身体健康,工作顺利!!!</p>
+<p class="impression" style="color:fuchsia">同志<font color="red">假如你上半年工作找的不好，千万不要气馁。</font>因为鲁迅说过：<font color="orange">七一建党，八一建军，十一建国，伟大的事业都是下半年完成的。</font>上半年不是三八就是清明，不是五四就是六一。都还不太成熟。--魏朝蒙</p>
+<p class="impression" style="color:fuchsia">emmm disk读daisike，grep读geruipe，git读geite，tab读teibou 不要读错了不然别人会觉得你很low(lo)</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">有收获，嘻嘻！</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">170725 董航航最帅</p>
+<p class="impression" style="color:fuchsia">夏磊<font color="red">老师</font>萌萌哒，希望<font color="orange">尚硅谷</font>，越做越好！</p>
+<p class =“impression” style =“color：blue;font-weight：bold;”>编程虐我千百遍，我待编程如初恋</p>
+<p class =“impression”style =“color：blue;font-weight：bold;”>在代码的海洋里遨游</p>
+<p class =“impression”style =“color：blue;font-weight：bold;”>Java很好，有益身心，不信，你看，我先还氵</p>
+<p class ="impression"style ="color: red;font-weight:bold;">山外青山楼外楼,很皮，很烦，很头铁</p>
+<p class="impression" style="color:red;font-size: 60px;font-weight:bold;">0725javaEE班前来贺电！！！</p>
+<p class ="impression" style="color:blue;font-weight: bold:">老师 Git听不懂呀  一脸懵逼</p>
+<p class="impression" style="color:red" >我搬来了小板凳,请开始你们的表演~ --Java0725</p>
+<p class="impression" style="color:red；font-size: 50px;font-weight: bold;">轻轻的我走了，正如我轻轻的来～</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">愿你随手拿起的一个苹果都很甜</p>
+<p class ="impression"style ="color：red;font-weight：bold;">黎明前最黑暗的时候</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">黄颜色的字体根本看不清，是我眼花吗...2017年11月30日11:26:09</p>
+<p class="impression" style="color:red">北京欢迎你,有梦想谁都了不起,有勇气就会有奇迹</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">我来尚硅谷见识到了柴老师的小家碧玉，婷儿姐的温婉大方，韩总的飙车之路，张宇老师的嘹亮歌喉，磊哥的腼腆害羞，真的是一次刺激的学习之旅，好奇后面的老师会是什么样的</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">人生得意须尽欢，莫使金樽空对月--王铎</p>
+<p class="impression" style="color: #09bb07;font-size: 26px"
+   onclick="javascript:console.log('>>>>>>>>>>> wow~ ⊙o⊙ 猜猜我是谁？ <<<<<<<<<')">
+  武林至尊，菜刀屠龙<br>
+  切菜剁肉，莫敢不从</p>
+<p class ="impression"style ="color：blue;font-weight：bold;">愿往事随风，都随风</p>
+<p class ="impression"style ="color：blue; font-size：50px; font-weight：bold;">技术大成之日，便是成功之时 </ p>
+<p class="impression" style="color:red">人生夕阳，不盼高官，不求荣华，愿得闲心一世，携手终老，白首不分离----0706,挺好！</p>
+<p class ="impression" style ="color：pink;font-size:50px;font-weight：bold;">愿尚硅谷越来越好，愿170706的朋友们都能找到心仪的工作。<br/>很幸运在尚硅谷遇到每一位志同道合的朋友和幽默风趣的老师。<br/>在尚硅谷的每一天都是充实开心的，愿勿忘初心。<br/> 明天加油！</ p>
+<p class="impression" style="color:red">晨哥,智联招聘快捷方式已经建好，万事俱备只欠东风	  ~.~</p>
+<p class="impression" style="color:blue" > 张晨老师最帅咿呀咿呀哟</p>	 
+<p class="impression" style="color:pink" >大师兄，二师兄的肉比师傅都贵了，不好好敲代码肉都吃不起！</p>
+<p class="impression" style="color:blue；font-size: 50px;font-weight: bold;">java从放弃到精通</p>
+<p class="impression" style="color:red">晨哥美貌与智慧并重，集才华与歌声于一身，兴许还会跳支快速排序，若借用许大神的话说简直就是"Perfect!!"</p>
+<p class="impression" style="color:red">户枢不蠹，流水不腐！</p>
+<p class="impression" style="color:red">晨哥,人帅歌好听!!! 永远怀念尚硅谷0706的日子 --拳王的同位wz</p>
+<p class="impression" style="color:blue" >20170706java班集体申请尚硅谷给晨哥加工资换电脑</p>
+<p class="impression" style="color:blue；font-size: 50px;font-weight: bold;">那个排序的舞蹈确实很魔性！</p>
+<p class="impression" style="color:green">老师，我要补交一下学费。</p>
+<p class="impression" style="color:fuchsia">0706的裙子来也。。呃，不好意思，走错片场了。。晨哥最棒！！！</p>
+<p class="impression" style="color:red;text-align:center;">莫说我穷的叮当响，大袖揽清风。<br/>莫讥我困时无处眠，天地做床被。<br/>莫笑我渴时无美酒，江湖为酒壶。<br/>莫觉我人生不快意，腰悬三尺剑！</p>
+<p class="impression" style="color:blue；font-size: 50px;font-weight: bold;">晨哥,我来了!</p>
+<p class="impression" style="color:blue;font-size:50px;font-weight: bold;">如果放弃技术，便是放弃自由。。。 夜深人静，敲代码！！！</p>
+<p class="impression" style="color:red">晨哥，一个被编程耽误的歌手！</p>
+<p class="impression" style="color:red">晨哥,技术跟歌声都66哒</p>
+<p class="impression" style="color:blue">是时候开始表演正真的技术了_0710</p>
+<p class="impression" style="color:blue">心心相印 ~ 印贼作父 ~ 父相伤害 ~ 害想咋滴 。。。</p>
+<p class="impression" style="color:blue" > 他强任他强， 我吃我三狼。</p>
+<p class="impression" style="color:blue">你猜我猜你猜不猜  -Pistol7</p>
+<p class="impression" style="color:blue">不念过去，不畏将来  -Pistol7</p>
+<p class="impression" style="color:fuchsia">贪图安稳就没有自由，要想自由就要历些危险，只有这两条路。</p>
+<p class="impression" style="color:blue">跟我比惨？？？连双休日都放弃了我！</p>
+<p class="impression" style="color:fuchsia">希望<font color="red">晨少</font>越来越好，希望<font color="orange">自己越来越好</font>，天天向上！</p>
+<p class="impression" style="color:red">我的Git测试过了吗？666666666</p>
+<p class="impression" style="color:fuchsia">表白集颜值、技术、稳重、幽默、朝气于一体的晨哥。 --来自0615的一枚汉子</p>
+<p class="impression" style="color:red">长江后浪推前浪，谁都没有杰哥浪</p>
+<p class="impression" style="color:green">老师快唱歌把~~~~~</p>
+<p class="impression" style="color:fuchsia">马子的第一次</p>
+<p class="impression" style="color:fuchsia">老师真帅！</p>
+<p class="impression" style="color:fuchsia">人的青春只有一次，现在青春是用来奋斗的，将来青春是用来回忆的</p>
+<p class="impression" style="color:blue">少小离家老大回，安能辨我是雌雄———敬泰国友人</p>
+<p class="impression" style="color:fuchsia">晨哥 666  0615yd到此一游^_^</p>
+<p class="impression" style="color:green">我们都在阴沟里，但仍有人仰望星空</p>
+<p class="impression" style="color:fuchsia">张老板，我想做你的程序员。</p>
+<p class="impression" style="color:fuchsia">0615-马上就要开始第二个项目了，抓紧吧!</p>
+<p class="impression" style="color:fuchsia">0615-基础很重要，要加快复习的速度了，感觉有好多都要整理，时间根本就不够用</p>
+<p class="impression" style="color:fuchsia">登高今夕事，九九是天长。-重阳</p>
+<p class="impression" style="color:blue">Be the change you want to see in the world ! 20171028 java0615 fd</p>
+<p class="impression" style="color:fuchsia">天王盖地虎，宝塔镇河妖</p>  
+<p class="impression" style="color:fuchsia">发生误操作怎么办，打开智联招聘。</p>
+<p class="impression" style="color:yellow" >生命如尘，岁月如歌</p> 
+<p class="impression" style="color:blue">0525 潇神来也</p>
+<p class="impression" style="color:yellow" >加油，10000+，我是lxx 0525</p> 
+<p class="impression" style="color:yellow" >张晨老师,还没好好上一节你的课</p>
+<p class="impression" style="color:yellow" >你就要走了</p>
+<p class="impression" style="color:yellow" >希望未来的路</p>
+<p class="impression" style="color:yellow" >没有那么多学渣</p>
+<p class="impression" style="color:yellow" >不会让你太辛苦</p>
+<p class="impression" style="color:yellow" >人活着，不能没有梦想！不能没有思想！如果没有这些，那和行尸走肉有什么区别！！！</p>
+<p class="impression" style="color:lime" >当然是原谅她了  ——嫖班长</p>
+<p class="impression" style="color:blue" > 测试idea 2017年4月</p>
+<p class="impression" style="color:red" >最后一个月，坚持就是胜利！！！！</p>  
+<p class="impression" style="color:red" >我的为什么看不到，踢我上去</p>
+<p class="impression" style="color:red" >天王盖地虎，小鸡炖蘑菇</p>
+<p class="impression" style="color:red" >打个酱油试一下</p> 
+<p class="impression" style="color:red" >有趣的灵魂越来越少</p> 
+<p class="impression" style="color:red" >张老师与你同在0525</p> 
+<p class="impression" style="color:red" >完犊子，放个假一点儿状态么有了</p> 
+<p class="impression" style="color:red" >静静等着脑白金分裂出来第八个人格:-)</p>
+<p class="impression" style="color:yellow" >学java为的就是更好的活着，lzf 0525</p> 
+<p class="impression"><span style="color:red;">我</span><span style="color:aqua;">就</span><span style="color:blue;">想</span><span style="color:fuchsia;">试</span><span style="color:gray;">试</span><span style="color:green;">是</span><span style="color:lime;">不</span><span style="color:maroon;">是</span><span style="color:navy;">真</span><span style="color:olive;">的</span><span style="color:orange;">五</span><span style="color:purple;">颜</span><span style="color:silver;">六</span><span style="color:teal;">色</span></p> 
+<p class="impression" style="color:red" >代码虐我千百遍，我视代码如初恋！！！！</p> 
+<p class="impression" style="color:red" >继续努力!!!</p> 
+<p class="impression" style="color:yellow" >做人没有梦想 和咸鱼有什么分别</p> 
+<p class="impression" style="color:red" >天不生你杜三金，IT白昼如黑夜——致敬170506杜大神，WYP留</p> 
+<p class="impression" style="color:orange;" >当然是选择原谅你啊-----------------------------------</p> 
+<p class="impression" style="color:blue">试试效果</p>
+<p class="impression" style="color:blue" >全忘了，学弟学妹加油</p>
+<p class="impression" style="color:navy" >一二三四五六七八九百十千万</p> 
+<p class="impression" style="color:red" >夜阑人静，敲着代码，想着晨晨。0506耿耿余淮</p> 
+<p class="impression" style="color:red" >冲突不会解决了，可以你明天就不在了，不知道为谁，六神无主。。</p> 
+<p class="impression" style="color:red" >9月12日，凌晨1:20，加油啊，自己~~~~~~</p> 
+<p class="impression" style="color:blue" >相信美好就会遇见美好！</p> 
+<p class="impression" style="color:blue" >全忘了，学弟学妹加油</p> 
+<p class="impression" style="color:green" >我是一只小青龙</p>
+<p class="impression" style="color:blue" >胜，则无威不加；败，则一身不保</p>
+<p class="impression" style="color:blue" >愿来尚硅谷学习的同志都可以满载而归</p> 
+<p class="impression" style="color:blue" >来练习一下git，小学弟们加油</p> 
+<p class="impression" style="color:blue" >老师真帅!!!</p> 
+<p class="impression" style="color:blue" >老师辛苦了！！！</p> 
+<p class="impression" style="color:blue" >古之成大事者,不惟有超世之才,亦必有坚韧不拔之志.与诸君共勉-倾城</p>
+<p class="impression" style="color:red" >谁把你的长发盘起，谁给你做的嫁衣。</p> 
+<p class="impression" style="color:blue" >渺渺兮予怀，夜从今夜白</p> 
+<p class="impression" style="color:green" >第二个大家一起加油啊，多多是个暖男</p> 
+<p class="imperssion" style="color:red">第二个项目加油吧！！！！</p>
+<p class="impression" style="color:blue" >踏着今时的河流，捡着昨日的豆子。fighting !! 0506 guang</p>
+<p class="impression" style="color:blue" >张老师快创业，我们要去给你打杂</p> 
+<p class="impression" style="color:blue" >今天刚学了git，上来练练手，张晨老师辛苦了。</p>
+<p class="impression" style="color:green" >苟利国家生死以，一行白鹭上西天。</p> 
+<p class="impression" style="color:blue" >全忘了，学弟学妹加油</p> 
+<p class="impression" style="color:black" >电梯里遇到面试官，还问人家是不是也是来面试的，人家说，我是来面试你的=。=||</p> 
+<p class="impression" style="color:blue" >春风十里扬州路，卷上珠帘总不如</p> 
+<p class="impression" style="color:blue" > 一入java深如海，从此萧郎是路人。！</p>
+<p class="impression" style="color:blue" > 曾经沧海难为水，除却巫山不是云 ……0417孙鹏飞</p>
+<p class="impression" style="color:blue" > Do More Do Better Do Exercise 为自己加油！！希望大家都能拿到自己想要的呢份offer </p>
+<p class="impression" style="color:blue" > 快学完了，发现git全忘，现在抓紧时间好好复习，希望后面的学弟学妹加油！</p>
+<p class="impression" style="color:blue" >念念不忘，必有回响</p>  
+<p class="impression" style="color:red" >把事情想简单点,多数时候,烦恼就是没吃饱,变胖就是没睡好.</p>
+<p class="impression" style="color:red">不疯魔不成活,齐天大圣来也</p>
+<p class="impression" style="color:red" >我年轻的时候，也曾快马加鞭，看尽长安花</p>
+<p class="impression" style="color:blue" > 刚好开班四个月整，2017-08-17</p>
+<p class="impression" style="color:red" >點擊我，免費送紙巾</p>
+<p class="impression" style="color:red" >末将于禁，愿为曹家世代赴汤蹈火！    ——于禁 《镇魂街》</p>
+<p class="impression" style="color:yellow" >葡萄美酒夜光杯,金钱美人一大堆</p>
+<p class="impression" style="color:red" >今天天气真热，可不是呢。。。。。。</p>
+<p class="impression" style="color:yellow" >兔子无双双很漂亮</p>
+<p class="impression" style="color:yellow" >曾是洛阳花下客，野芳虽晚不须嗟</p>
+<p class="impression" style="color:yellow" >明日复明日，明日何其多！author_0417</p>
+<p class="impression" style="color:green" >晨哥，听说下雨天，<font color="red">Linux</font>和<font color="red">MyCat</font>更配哦！</p>
+<p class="impression" style="color:blue" >我心安处，即是吾乡</p>  
+<p class="impression" style="color:blue" >一入<font color="red">Java</font>深似海，破浪乘风终有时！</p>
+<p class="impression" style="color:red" >蔡老师学java吃力吗？快别玩手机了...</p>
+<p class="impression" style="color:red" >灵车漂移，坟场蹦迪！</p>
+<p class="impression" style="color:blue" >不管明天会发生什么，我们还有今天</p>  
+<p class="impression" style="color:red" >人丑多读书，手生多敲码</p>
+<p class="impression" style="color:red" >从前的日色变得慢，车马邮件都慢，一生只够爱一个人！</p>
+<p class="impression" style="color:red" >晚上睡不着???don't call me,i will call you</p>  
+<p class="impression" style="color:red">晨哥，温文尔雅，意气风发，再有两天就要换老师了，带我们下次相聚，您依然如故！！！2017年8月8日20:36:35  0330 某学渣</p>
+<p class="impression" style="color:blue" > 冲锋之势，有进无退；陷阵之志，有死无生！！！</p>
+<p class="impression" style="color:blue" >年薪百万的是陶涛。学习JAVA肯定吃力 日了！！！！！！！！！！</p>
+<p class="impression" style="color:red" >以前，无dota不兄弟，无篮球不基友了，如今只剩下无“农药”不基友，晨晨你呢？</p>
+<p class="impression" style="color:red" >0330学员姗姗来迟，代码敲不过来啊 </p>
+<p class="impression" style="color:red" >大家好，我是李铁根！</p>
+<p class="impression" style="color:blue">菜鸟到大神,路漫漫其修远兮！2017-08-08</p>
+<p class="impression" style="color:blue" >测试测试,用四个月发现了一个真理,我们组长是真的丑....一定要让他看见</p>  
+<p class="impression" style="color:blue" >晨哥把你的项目多开源点儿, 点赞加评论, 瞧瞧大神是如何搬砖的!!</p> 
+<p class="impression" style="color:red" >晨哥哪天请我们吃大餐 到时候说一句就可以了</p>
+<p class="impression" style="color:blue" >昌平码农</p>  
+<p class="impression" style="color:red" >东京热不热我不知道，反正北京要热死了,晨哥你热不？</p>
+<p class="impression" style="color:blue" >欢迎来到王者荣耀</p> 
+<p class="impression" style="color:blue" >昌平王老湿到此一游！</p> 
+<p class="impression" style="color:blue" >晨晨老师，想你想的睡不着！</p> 
+<p class="impression" style="color:blue" >晨哥哥，你在干嘛？</p>  
+<p class="impression" style="color:blue" >测试GitHub分支功能2017年7月19日05:23:01——20170316</p>
+<p class="impression" style="color:blue" >我被陈苏德传染感冒了！痛苦的一批</p>	
+<p class="impression" style="color:yellow" >营口大呲花前来报道。---0316</p>
+<p class="impression" style="color:yellow" >海燕啊，你可长点心吧!!!</p>
+<p class="impression" style="color:blue" >面对疾风吧</p>	  
+<p class="impression" style="color:blue" >12345,上山打老虎</p>
+<p class="impression" style="color:pink" >冒泡，，，，，，冒泡，，，，，，再冒泡!</p>
+<p class="impression" style="color:red" >迷迷瞪瞪的~kaer</p>
+<p class="impression" style="color:blue" >测试，页面修改——0224</p>
+<p class="impression" style="color:pink" >just for fun!</p>
+<p class="impression" style="color:blue" >时间会告诉我们 简单的喜欢 最长远 平凡中的陪伴 最心安 懂你的人 最温暖。cgzs</p>
+<p class="impression" style="color:blue" >技不如人，甘拜下风</p>
+<p class="impression" style="color:blue" >清风徐徐风年</p>
+<p class="impression" style="color:red">0210复习Git7月16日,不知道晨哥睡了没，现在是0点20分,搬了校区晨哥可以晚起床一分钟了,哇哈哈。</p>
+<p class="impression" style="color:blue" >我的愿望是世界和平</p>
+<p class="impression" style="color:blue" >好想都会....</p>
+<p class="impression" style="color:blue" >张老师,起来打王者荣耀啦!咱们一起上钻石!</p>
+<p class="impression" style="color:blue" >快毕业了! 愁啊</p>
+<p class="impression" style="color:blue" >英雄一怒为红颜,红颜一笑为了钱!</p>
+<p class="impression" style="color:blue" >try git 练习</p>
+<p class="impression" style="color:blue" >新校区太远了，我不想搬学校。。。快毕业了，啥也不会咋整---0224扛把子</p>
+<p class="impression" style="color:gold" >GitHub 啦啦啦！-0224高博</p>
+<p class="impression" style="color:red">我是一只丑小鸭啊咿呀咿呀哟,呱呱!!!!</p>
+<p class="impression" style="color:red" >你的梦想是否只是说说而已</p>
+<p class="impression" style="color:red" >一不小心留了个言</p>
+<p class="impression" style="color:yellow" > 就这样慢慢的一步一步的向巅峰迈去，从来不曾后退，也不曾退缩。---My 2017.7.4</p>
+<p class="impression" style="color:blue" >各种不好弄，想炸学校</p>
+<p class="impression" style="color:blue" >我們遠的不是距離，是次元啊！！！ --Ranger</p>
+<p class="impression" style="color:blue" >没错，闭关修炼那个就是我---0224匿名</p>
+<p class="impression" style="color:blue" >闭关修炼。。。</p>
+<p class="impression" style="color:blue" >台风来了猪也会飞！-0210黑帅</p>
+<p class="impression" style="color:blue" >Git好难啊! 0210-lxq</p>
+	  <p class="impression" style="color:blue" > Are you OK?</br>
+<p class="impression" style="color:blue" > 北清路扛把子 : 脸怎么黄了?</br>
+						冯家小马仔 : 防冷涂的蜡!</br>
+					   北清路扛把子 : 怎么又红了?</br>
+						冯家小马仔 : 容光焕发!</br>	
+					   北清路扛把子 : 怎么又黄了? </br>
+						冯家小马仔 : 我又涂了一层蜡!</p>
+<p class="impression" style="color:blue" > 6月21日，fgy</p>
+<p class="impression" style="color:blue" > 快毕业了，心里没底！！！！=0210班张宏伟</p>
+<p class="impression" style="color:blue" > 建国抗棒子，冯佳小马仔</p>
+<p class="impression" style="color:red" > GitHub!我来啦！0210班---rice 170620</p>
+<p class="impression" style="color:blue" > 山外青山楼外楼西湖歌舞几时休。</p>
+<p class="impression" style="color:blue" > 根本来不及消化,网速堪比蜗牛,光clone就用了半节课</p>
+<p class="impression" style="color:blue" > 网好卡啊大家别玩游戏了</p>
+<p class="impression" style="color:orange" > 成语接龙:为所欲为~!</p>
+<p class="impression" style="color:blue" > 测试...2017年6月20日</p>
+<p class="impression" style="color:red" > 床前明月光，疑是地上霜</p>
+<p class="impression" style="color:blue" > pengxiaohong 到此一游</p>
+<p class="impression" style="color:blue" > 今天预习git 月底毕业！ --- hh 2017年6月15日</p>
+<p class="impression" style="color:blue">2017.06.21楚岗锋打卡</p>
+<p class="impression" style="color:yellow" >既然你诚心诚意的问了，我就大发慈悲的告诉你，为了防止世界被破坏，为了守护世界的和平，贯彻爱与真实的邪恶，可爱又迷人的反派角色，就是这样，我就是尼古拉斯.许瑞.大帅比   </p> 
+<p class="impression" style="color: #a09;" > 晨晨老师,我们马上要毕业了,好紧张啊,所以曹同学过来复习一下GitHub！  ---2017年5月22日学习打卡 </p>
+<p class="impression" style="color:blue" > 老师真是越看越帅，型男又美男  ---2017.6.20</p>
+<p class="impression" style="color:blue" > JAVAEE1228飘过，世上无难事，只要肯放弃！！！！！！----2017.5.23.12:10</p>
+<p class="impression" style="color:blue" > 是不是这么玩的！！</p>
+<p class="impression" style="color:blue" > 都是英文怎么办</p>
+<p class="impression" style="color:blue" > 代替湖北鼠王到此一游</p>
+<p class="impression" style="color:#562356" >气氛很紧张的样子</p>
+<p class="impression" style="color:orange" >为什么命令窗口不可以回退编辑</p>
+<p class="impression" style="color:reseda" >听说要毕业了</p>
+<p class="impression" style="color:blue" > 早起的鸟儿有虫吃</p>
+<p class="impression" style="color:blue" > 炎炎夏日，注意防暑 --^_^</p>
+<p class="impression" style="color:9966CC"> java救不了中国<p>
+<p class="impression" style="color:blue" > 我有一个胆小的想法！ --- hh 2017年5月</p>
+<p class="impression" style="color:blue" > 我有一个大胆的想法！ --- hh 2017年4月</p>
+<p class="impression" style="color:yellow" > 真正的开始，是从一次遇见结束的。真正的结束，是从一句再见开始的。爱过的人彼此疏远，一句再见再难相见。再离别的夜，留下彼此错过的缘。---My 2016.5.20</p>
+<p class="impression" style="color:blue" > 大哥该回家吃饭了</p>
+<p class="impression" style="color:blue" > 夫天降将大任于斯人也，必先去其鼠标，毁其键盘，砸其主机！ --- mc-16-1201 2017年4月</p>
+<p class="impression" style="color:blue" > 五一放假，大家都想好去哪儿玩了吗？--^_^</p> 
+<p class="impression" style="color:yellow" >世上长得越好看的女人，越是会骗人，所以给我来一打女骗子。</p>
+<p class="impression" style="color:green"> 没事！我选择原谅你（帽子）--- 周性感 1201 </p>
+<p class="impression" style="color:blue" > 嘻嘻哈哈呼呼呵呵！ --- 这是一个悲伤的故事 2017年4月</p>
+<p class="impression" style="color:blue" > 毁一个天才，成就一个门派。———— 《师傅》2017年4月</p>
+<p class="impression" style="color:blue" >纵横江湖三十余载，杀尽仇寇，败尽英雄，天下更无抗手，无可柰何，惟隐居深谷，以雕为友。呜呼，生平求一敌手而不可得，诚寂寥难堪也。</p> 
+<p class="impression" style="color:blue" > 曹总一帅1米8，曹总一笑百花开！ --- 匿名的曹总粉丝 2017年4月24日</p>
+<p class="impression" style="color:blue" > 我是小黄人，谁能比我黄！ --- 小黄人 2017年4月</p>
+<p class="impression" style="color:blue" > 路漫漫其修远兮，吾将上下而求索  -- 1201pyw</p>
+<p class="impression" style="color:blue" > 啤酒饮料矿泉水，花生瓜子八宝粥，抬下腿咯~~ --- by 列车员</p> 
+<p class="impression" style="color:blue" > 天下武功，为快不破 --- 风范 2017年4月23</p>
+<p class="impression" style="color:blue" > 楼下是我媳妇！~~ --- 曹同学 2017年4月23日</p> 
+<p class="impression" style="color:red" >喜欢就去xxx</p>
+<p class="impression" style="color:blue" >班上有个女生我喜欢你很久了</p>
+<p class="impression" style="color:blue" >删库跑路，打开智联招聘! --java从入门到放弃</p>
+<p class="impression" style="color:red" >屠龙宝刀，武林至尊，硅谷不尚，谁与争锋!--- 张公子 2017年4月></p>
+<p class="impression" style="color:blue" > Git在手，天下我有！ --- 东方教主 2017年4月</p>
+<p class="impression" style="color:blue" > 欲练神功，先学Git！ --- 岳不群 2017年4月</p>
+<p class="impression" style="color:blue" > 师父武功太高深，先从Git学起！ --- 令狐冲 2017年4月</p>
+<p class="impression" style="color:blue" > 感谢大家参与，以后会越做越好！ --- 张晨老师 2017年4月</p>
+<!--------------- 留言区结束--------------------->
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Try-Git 学习实践 by 张晨</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+<script type="text/javascript" src="javascripts/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#impression_num").text( $("p.impression").length );
+  });
+</script>
+  </body>
+</html>
+
+<p class="impression" style="color:blue" > 以梦为马，诗酒趁年华！ </p>
