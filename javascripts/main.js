@@ -15,8 +15,8 @@ wrap.innerHTML = '';
 
 var ul = document.createElement('ul');
 var start = 0;
-var length = 20;
-var num = Math.ceil(stringArr.length / 20);
+var length = 50;
+var num = Math.ceil(stringArr.length / 50);
 var selectData = stringArr.slice(start, length);
 
 var draw = function draw(data) {
